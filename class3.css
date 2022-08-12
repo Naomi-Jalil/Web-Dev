@@ -1,0 +1,71 @@
+* {
+	background-color: red;
+}
+
+.Country{
+	background-color: aqua;
+	border: 20px solid black;
+	padding: 80px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.parent div{
+	font-size: 50px;
+	font-weight: 500;
+	color: aqua;
+	border: 4px solid black;
+	margin: 20px;
+	height: 250px;
+	width: 250px;
+}
+
+.parent{
+	display: flex;
+	flex-direction: row;
+}
+
+.parent2 div{
+	font-size: 50px;
+	font-weight: 500;
+	color: aqua;
+	border: 4px solid black;
+	margin: 20px;
+	height: 250px;
+	width: 250px;
+}
+
+.parent2{
+	display: flex;
+	flex-direction: row;
+}
+
+.child-1{
+	flex: 3;
+}
+
+.child-2{
+	flex: 1;
+}
+
+.box{
+	font-size: 50px;
+	font-weight: 500;
+	color: aqua;
+	border: 4px solid black;
+	margin: 20px;
+	height: 250px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: purple;
+	cursor: pointer;
+}
+
+.box:hover{
+	background-color: aqua;
+	color: purple;
+}
+h1:hover{
+	color: white;
+}
